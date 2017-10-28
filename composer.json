@@ -1,0 +1,14 @@
+{
+    "require": {
+        "workerman/phpsocket.io": "^1.1",
+        "mikecao/flight": "^1.3",
+        "kint-php/kint": "^2.2"
+    },
+    "autoload": {
+        "files": ["utils/Helpers.php"],
+        "classmap": ["utils/"]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    }
+}
